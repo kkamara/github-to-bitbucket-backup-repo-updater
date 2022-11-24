@@ -11,3 +11,11 @@
   git remote set-url origin git@bitbucket.org:kkamara2/php-scraper
   git push
 ```
+
+```json
+{
+  "origins": {
+    "https://github.com/kkamara/kelvinkamara.com": "git@bitbucket.org:kkamara2/kelvinkamara.com"
+  }
+}
+```
