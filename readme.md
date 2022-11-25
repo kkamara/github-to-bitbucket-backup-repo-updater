@@ -27,7 +27,7 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 ## Usage
 
 ```bash
-  ghbbupdater --test 1 -w test
+  ghbbupdater --time 1 -w test
 ```
 
 ## Building notes
