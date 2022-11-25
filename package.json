@@ -1,0 +1,23 @@
+{
+  "name": "github-to-bitbucket-backup-repo-updater",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkamara/github-to-bitbucket-backup-repo-updater.git"
+  },
+  "author": "",
+  "license": "BSD-3",
+  "keywords": [],
+  "dependencies": {
+    "cli": "^1.0.1"
+  },
+  "bin": {
+    "ghbbupdater": "./app.js"
+  }
+}
