@@ -13,19 +13,19 @@ const run = () => {
   const ls = spawn("ls", ["-la"])
 
   ls.stdout.on("data", data => {
-      console.log(`stdout: ${data}`)
+      log(`stdout: ${data}`)
   })
 
   ls.stderr.on("data", data => {
-      console.log(`stderr: ${data}`)
+      log(`stderr: ${data}`)
   })
 
   ls.on('error', (error) => {
-      console.log(`error: ${error.message}`)
+      log(`error: ${error.message}`)
   })
 
   ls.on("close", code => {
-      console.log(`child process exited with code ${code}`)
+      log(`child process exited with code ${code}`)
   })
 }
 
