@@ -1,5 +1,5 @@
 # github-to-bitbucket-backup-repo-updater
-🚧 (Planning)
+:computer: :shell: 🚧 (Planning)
 
 ## Requirements
 
