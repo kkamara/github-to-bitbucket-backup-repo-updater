@@ -7,7 +7,8 @@ work: [ 'w', 'What kind of work to do', 'string', 'sleep' ]  //     --work STRIN
 })
 
 const run = () => {
-  log(cli.parse())
+  log(cli.parse(), options)
+  log(cli.parse().time, options.work)
   
   const ls = spawn("ls", ["-la"])
 
