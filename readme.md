@@ -21,7 +21,7 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
   npm install
   chmod +x app.js
   npm cache config set prefix /usr/local
-  npm link # execute ghbbupdater command in path
+  npm run build # execute ghbbupdater command in path
 ```
 
 ## Usage
