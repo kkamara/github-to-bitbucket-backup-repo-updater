@@ -5,6 +5,8 @@
 
 - https://nodejs.org/en/blog/announcements/v19-release-announce/
 
+- [Git](https://git-scm.com/)
+
 ## Installation
 
 Update `config.json` with your github and bitbucket remote urls for your repos.
