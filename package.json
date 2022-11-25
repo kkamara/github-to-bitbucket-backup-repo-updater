@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/kkamara/github-to-bitbucket-backup-repo-updater.git"
   },
-  "author": "",
+  "author": "https://github.com/kkamara",
   "license": "BSD-3",
   "keywords": [],
   "dependencies": {
