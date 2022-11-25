@@ -30,7 +30,9 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
   ghbbupdater --time 1 -w test
 ```
 
-## Building notes
+## Misc
+
+### Planning notes
 
 ```bash
   mkdir bitbucket
