@@ -13,8 +13,17 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 
 ```json
 {
-  "origins": {
-    "https://github.com/kkamara/kelvinkamara.com": "git@bitbucket.org:kkamara2/kelvinkamara.com"
+  "repos": {
+    "kelvinkamara.com": {
+      "github": {
+        "origin": "https://github.com/kkamara/kelvinkamara.com",
+        "branch": "develop"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/kelvinkamara.com",
+        "branch": "develop"
+      }
+    }
   }
 }
 ```

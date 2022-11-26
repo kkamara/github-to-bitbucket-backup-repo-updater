@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { join, } = require('node:path')
-const { mkdir,  rm, readdir, } = require('node:fs/promises')
+const { mkdir, rm, readdir, } = require('node:fs/promises')
 const { existsSync, } = require('node:fs')
 const { spawn } = require('node:child_process')
 const { log, error, } = require('node:console')
@@ -14,7 +14,7 @@ const run = async () => {
   try {
     log(cli.parse(), options)
     log(cli.parse().time, options.work)
-    // log(config.origins)
+    // log(config.repos)
     
     await new Promise((resolve, reject) => {
       const pwd = spawn("pwd")
@@ -42,6 +42,17 @@ const run = async () => {
     } catch (err) {
       throw new Error('The bitbucket folder already exists in current directory.')
     }
+
+    await new Promise((resolve, reject) => {
+      const pwd = spawn("pwd")
+      pwd.stdout.on("data", data => {
+        log(`In current directory: ${data}`)
+        resolve()
+      })
+      pwd.on("error", err => {
+        reject(err)
+      })
+    })
 
     await cleanup()
   } catch (err) {
