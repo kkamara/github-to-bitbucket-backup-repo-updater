@@ -14,7 +14,7 @@ const run = async () => {
   try {
     log(cli.parse(), options)
     log(cli.parse().time, options.work)
-    // log(config)
+    // log(config.origins)
     
     await new Promise((resolve, reject) => {
       const pwd = spawn("pwd")
