@@ -16,7 +16,9 @@
   "license": "BSD-3",
   "keywords": [],
   "dependencies": {
-    "cli": "^1.0.1"
+    "cli": "^1.0.1",
+    "git-add-remote": "^1.0.0",
+    "git-clone": "^0.2.0"
   },
   "bin": {
     "ghbbupdater": "./app.js"
