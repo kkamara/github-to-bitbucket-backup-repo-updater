@@ -38,6 +38,8 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 ## Usage
 
 ```bash
+  npm run start
+  npm run start -- --help
   ghbbupdater --help
   ghbbupdater
   ghbbupdater --time 1 -w test
