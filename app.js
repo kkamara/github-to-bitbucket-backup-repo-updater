@@ -3,7 +3,7 @@ const { chdir, } = require('node:process')
 const { join, } = require('node:path')
 const { mkdir, rm, readdir, } = require('node:fs/promises')
 const { existsSync, } = require('node:fs')
-const { spawn } = require('node:child_process')
+const { spawn, exec, } = require('node:child_process')
 const { log, error, } = require('node:console')
 const cli = require('cli'), options = cli.parse({
   time: [ 't', 'An access time', 'time', false],                 // -t, --time TIME   An access time
@@ -16,6 +16,15 @@ const run = async () => {
   try {
     log(cli.parse(), options)
     log(cli.parse().time, options.work)
+    /*
+      "repos": {
+        "kelvinkamara.com": {
+          "github": {
+            "origin": "https://github.com/kkamara/kelvinkamara.com",
+            "branch": "develop"
+          },
+          "bitbucket": { ... }
+     */
     // log(config.repos)
     
     await pwd()
@@ -25,7 +34,10 @@ const run = async () => {
     log('Directory already exists?', existsSync(join(__dirname, 'bitbucket')))
 
     try {
-      const createBitbucketDir = await mkdir(join(__dirname, 'bitbucket'), { recursive: true, })
+      const createBitbucketDir = await mkdir(
+        join(__dirname, 'bitbucket'),
+        { recursive: true, },
+      )
       if (createBitbucketDir === undefined) {
         throw new Error('The bitbucket folder already exists in current directory.')
       }
@@ -36,37 +48,48 @@ const run = async () => {
       throw new Error('The bitbucket folder already exists in current directory.')
     }
 
-    await clone(
-      'https://github.com/kkamara/node-react-boilerplate',
-      join(__dirname, 'bitbucket', 'node-react-boilerplate'),
-    )
+    for (const repoName in config.repos) {
+      log(`Updating repo: ${repoName}`)
+      
+      await clone(
+        config.repos[repoName].github.origin,
+        join(__dirname, 'bitbucket', repoName),
+      )
 
-    chdir(join(__dirname, 'bitbucket', 'node-react-boilerplate'))
+      chdir(join(__dirname, 'bitbucket', repoName))
 
-    await pwd()
-
-    const addRemote = require('git-add-remote')()
-    addRemote(
-      'bitbucket', 
-      'git@bitbucket.org:kkamara2/node-react-boilerplate', 
-      function(err) {
-        if (err) return log(err)
-      }
-    )
-
-    const git = spawn("git", ['push', 'bitbucket', 'main',]);
-
-    await new Promise((resolve, reject) => {
-      git.stdout.on("data", data => {
-         log(`Git replied: ${data}`)
-         resolve()
+      await pwd()
+      
+      await new Promise((resolve, reject) => {
+        exec(
+          `git remote add bitbucket ${config.repos[repoName].bitbucket.origin}`, 
+          (err, stdout, stderr) => {
+          if (err) return reject(err)
+          log(`Git replied: ${stdout}`)
+          resolve()
+        })
       })
-      git.on("error", err => {
-         reject(err)
-      })
-    })
 
-    await cleanup()
+      log(`Pushing to bitbucket ${config.repos[repoName].bitbucket.branch}`)
+
+      await new Promise((resolve, reject) => {
+        exec(
+          `git push bitbucket ${config.repos[repoName].bitbucket.branch}`, 
+          (err, stdout, stderr) => {
+          if (err) return reject(err)
+          log(`Git replied: ${stdout}`)
+          resolve()
+        })
+      })
+
+      chdir(join(__dirname, '..', '..'))
+
+//      await repoCleanup(repoName)
+
+      log(`Successfully updated repo: ${repoName}`)
+    }
+
+//    await cleanup()
   } catch (err) {
     error(err.message)
   }
@@ -86,6 +109,17 @@ const pwd = async () => {
 }
 
 const updateRepo = async () => {}
+
+const repoCleanup = async (repoName) => {
+  try {
+    log('Removing directory', join(__dirname, 'bitbucket', repoName))
+    await rm(join(__dirname, 'bitbucket', repoName), { recursive: true, force: true, retryDelay: 1000, })
+    log(`Removed directory: ${join(__dirname, 'bitbucket', repoName)}`)
+  // Created directory: bitbucket
+  } catch (err) {
+    throw new Error(`Error encountered when removing ${join(__dirname, 'bitbucket', repoName)}.`)
+  }
+}
 
 const cleanup = async () => {
   try {
