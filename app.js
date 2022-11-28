@@ -84,12 +84,12 @@ const run = async () => {
 
       chdir(join(__dirname, '..', '..'))
 
-//      await repoCleanup(repoName)
+      await repoCleanup(repoName)
 
       log(`Successfully updated repo: ${repoName}`)
     }
 
-//    await cleanup()
+    await cleanup()
   } catch (err) {
     error(err.message)
   }

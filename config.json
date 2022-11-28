@@ -333,11 +333,11 @@
     "django-app": {
       "github": {
         "origin": "https://github.com/kkamara/django-app",
-        "branch": "main"
+        "branch": "develop"
       },
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/django-app",
-        "branch": "main"
+        "branch": "develop"
       }
     },
     "birthday-currency": {
