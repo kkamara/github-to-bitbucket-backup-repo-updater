@@ -46,6 +46,12 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
   npm run start -- --time 1 -w test
 ```
 
+## Tests
+
+```bash
+  npm run test
+```
+
 ## Misc
 
 ### Planning notes
