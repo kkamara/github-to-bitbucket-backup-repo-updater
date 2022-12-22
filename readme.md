@@ -1,5 +1,5 @@
 # github-to-bitbucket-backup-repo-updater
-:computer: :shell:.
+:computer: Compatible with Windows, MacOS & Linux.
 
 ## Requirements
 
