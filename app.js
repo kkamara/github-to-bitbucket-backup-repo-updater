@@ -26,8 +26,6 @@ const run = async () => {
           "bitbucket": { ... }
      */
     // log(config.repos)
-    
-    await pwd()
 
     log('Making bitbucket directory:', join(__dirname, 'bitbucket'))
 
@@ -57,8 +55,6 @@ const run = async () => {
       )
 
       chdir(join(__dirname, 'bitbucket', repoName))
-
-      await pwd()
       
       await new Promise((resolve, reject) => {
         exec(
