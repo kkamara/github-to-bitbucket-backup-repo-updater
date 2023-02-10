@@ -1,5 +1,25 @@
 {
   "repos": {
+    "wp-private": {
+      "github": {
+        "origin": "https://github.com/kkamara/wp-private",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/wp-private",
+        "branch": "main"
+      }
+    },
+    "send-receive-crypto": {
+      "github": {
+        "origin": "https://github.com/kkamara/send-receive-crypto",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/send-receive-crypto",
+        "branch": "main"
+      }
+    },
     "kelvinkamara.com": {
       "github": {
         "origin": "https://github.com/kkamara/kelvinkamara.com",
@@ -137,26 +157,6 @@
       },
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/playground",
-        "branch": "main"
-      }
-    },
-    "video-chat-app": {
-      "github": {
-        "origin": "https://github.com/kkamara/video-chat-app",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/video-chat-app",
-        "branch": "main"
-      }
-    },
-    "web3.0-app": {
-      "github": {
-        "origin": "https://github.com/kkamara/web3.0-app",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/web3.0-app",
         "branch": "main"
       }
     },
