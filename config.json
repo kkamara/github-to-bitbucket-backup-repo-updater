@@ -1,5 +1,15 @@
 {
   "repos": {
+    "kelvinkamara": {
+      "github": {
+        "origin": "https://github.com/kkamara/kelvinkamara",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/kelvinkamara",
+        "branch": "main"
+      }
+    },
     "wp-private": {
       "github": {
         "origin": "https://github.com/kkamara/wp-private",
