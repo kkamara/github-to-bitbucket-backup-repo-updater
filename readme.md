@@ -54,6 +54,12 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 
 ## Misc
 
+[See react boilerplate.](https://github.com/kkamara/react-boilerplate)
+
+[See php scraper.](https://github.com/kkamara/php-scraper)
+
+[See node react boilerplate.](https://github.com/kkamara/node-react-boilerplate)
+
 ### Planning notes
 
 ```bash
