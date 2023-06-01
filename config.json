@@ -1,5 +1,15 @@
 {
   "repos": {
+    "desktop-react-boilerplate": {
+      "github": {
+        "origin": "https://github.com/kkamara/desktop-react-boilerplate",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/desktop-react-boilerplate",
+        "branch": "main"
+      }
+    },
     "kelvinkamara": {
       "github": {
         "origin": "https://github.com/kkamara/kelvinkamara",
