@@ -109,6 +109,16 @@
         "origin": "git@bitbucket.org:kkamara2/desktop-react-boilerplate",
         "branch": "main"
       }
+    },
+    "github-to-bitbucket-backup-repo-updater": {
+      "github": {
+        "origin": "https://github.com/kkamara/github-to-bitbucket-backup-repo-updater",
+        "branch": "develop"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/github-to-bitbucket-backup-repo-updater",
+        "branch": "develop"
+      }
     }
   }
 }
