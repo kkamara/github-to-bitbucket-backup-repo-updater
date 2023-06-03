@@ -1,45 +1,5 @@
 {
   "repos": {
-    "desktop-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/desktop-react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/desktop-react-boilerplate",
-        "branch": "main"
-      }
-    },
-    "kelvinkamara": {
-      "github": {
-        "origin": "https://github.com/kkamara/kelvinkamara",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/kelvinkamara",
-        "branch": "main"
-      }
-    },
-    "wp-private": {
-      "github": {
-        "origin": "https://github.com/kkamara/wp-private",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/wp-private",
-        "branch": "main"
-      }
-    },
-    "send-receive-crypto": {
-      "github": {
-        "origin": "https://github.com/kkamara/send-receive-crypto",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/send-receive-crypto",
-        "branch": "main"
-      }
-    },
     "kelvinkamara.com": {
       "github": {
         "origin": "https://github.com/kkamara/kelvinkamara.com",
@@ -50,26 +10,6 @@
         "branch": "develop"
       }
     },
-    "nodejs-sequelize": {
-      "github": {
-        "origin": "https://github.com/kkamara/nodejs-sequelize",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/nodejs-sequelize",
-        "branch": "main"
-      }
-    },
-    "node-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/node-react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/node-react-boilerplate",
-        "branch": "main"
-      }
-    },
     "premium-artist-cms-template": {
       "github": {
         "origin": "https://github.com/kkamara/premium-artist-cms-template",
@@ -77,16 +17,6 @@
       },
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/premium-artist-cms-template",
-        "branch": "main"
-      }
-    },
-    "mrvl": {
-      "github": {
-        "origin": "https://github.com/kkamara/mrvl",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/mrvl",
         "branch": "main"
       }
     },
@@ -120,56 +50,6 @@
         "branch": "main"
       }
     },
-    "laravel-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/laravel-react-boilerplate",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/laravel-react-boilerplate",
-        "branch": "develop"
-      }
-    },
-    "todo-app": {
-      "github": {
-        "origin": "https://github.com/kkamara/todo-app",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/todo-app",
-        "branch": "main"
-      }
-    },
-    "amazon-scraper": {
-      "github": {
-        "origin": "https://github.com/kkamara/amazon-scraper",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/amazon-scraper",
-        "branch": "develop"
-      }
-    },
-    "php-scraper": {
-      "github": {
-        "origin": "https://github.com/kkamara/php-scraper",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/php-scraper",
-        "branch": "develop"
-      }
-    },
-    "selenium-py": {
-      "github": {
-        "origin": "https://github.com/kkamara/selenium-py",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/selenium-py",
-        "branch": "main"
-      }
-    },
     "playground": {
       "github": {
         "origin": "https://github.com/kkamara/playground",
@@ -180,74 +60,14 @@
         "branch": "main"
       }
     },
-    "django-react-boilerplate": {
+    "web-react-boilerplate": {
       "github": {
-        "origin": "https://github.com/kkamara/django-react-boilerplate",
+        "origin": "https://github.com/kkamara/web-react-boilerplate",
         "branch": "develop"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/django-react-boilerplate",
+        "origin": "git@bitbucket.org:kkamara2/web-react-boilerplate",
         "branch": "develop"
-      }
-    },
-    "blockchain": {
-      "github": {
-        "origin": "https://github.com/kkamara/blockchain",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/blockchain",
-        "branch": "develop"
-      }
-    },
-    "php-docker-skeleton": {
-      "github": {
-        "origin": "https://github.com/kkamara/php-docker-skeleton",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/php-docker-skeleton",
-        "branch": "main"
-      }
-    },
-    "team-section": {
-      "github": {
-        "origin": "https://github.com/kkamara/team-section",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/team-section",
-        "branch": "main"
-      }
-    },
-    "gmail-clone": {
-      "github": {
-        "origin": "https://github.com/kkamara/gmail-clone",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/gmail-clone",
-        "branch": "main"
-      }
-    },
-    "youtube-clone": {
-      "github": {
-        "origin": "https://github.com/kkamara/youtube-clone",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/youtube-clone",
-        "branch": "main"
-      }
-    },
-    "ram": {
-      "github": {
-        "origin": "https://github.com/kkamara/ram",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/ram",
-        "branch": "main"
       }
     },
     "debian-linux-desktop-setup": {
@@ -257,26 +77,6 @@
       },
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/debian-linux-desktop-setup",
-        "branch": "main"
-      }
-    },
-    "c": {
-      "github": {
-        "origin": "https://github.com/kkamara/c",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/c",
-        "branch": "main"
-      }
-    },
-    "c": {
-      "github": {
-        "origin": "https://github.com/kkamara/c",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/c",
         "branch": "main"
       }
     },
@@ -290,16 +90,6 @@
         "branch": "develop"
       }
     },
-    "python-for-finance": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-for-finance",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-for-finance",
-        "branch": "develop"
-      }
-    },
     "react-boilerplate": {
       "github": {
         "origin": "https://github.com/kkamara/react-boilerplate",
@@ -310,213 +100,13 @@
         "branch": "main"
       }
     },
-    "ecommerce-web": {
+    "desktop-react-boilerplate": {
       "github": {
-        "origin": "https://github.com/kkamara/ecommerce-web",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/ecommerce-web",
-        "branch": "develop"
-      }
-    },
-    "python-amazon-scraper": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-amazon-scraper",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-amazon-scraper",
-        "branch": "develop"
-      }
-    },
-    "scrapy-crawler": {
-      "github": {
-        "origin": "https://github.com/kkamara/scrapy-crawler",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/scrapy-crawler",
-        "branch": "develop"
-      }
-    },
-    "python-docker-skeleton": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-docker-skeleton",
+        "origin": "https://github.com/kkamara/desktop-react-boilerplate",
         "branch": "main"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-docker-skeleton",
-        "branch": "main"
-      }
-    },
-    "django-app": {
-      "github": {
-        "origin": "https://github.com/kkamara/django-app",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/django-app",
-        "branch": "develop"
-      }
-    },
-    "birthday-currency": {
-      "github": {
-        "origin": "https://github.com/kkamara/birthday-currency",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/birthday-currency",
-        "branch": "main"
-      }
-    },
-    "crm": {
-      "github": {
-        "origin": "https://github.com/kkamara/crm",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/crm",
-        "branch": "develop"
-      }
-    },
-    "ecommerce-mobile": {
-      "github": {
-        "origin": "https://github.com/kkamara/ecommerce-mobile",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/ecommerce-mobile",
-        "branch": "develop"
-      }
-    },
-    "jscake": {
-      "github": {
-        "origin": "https://github.com/kkamara/jscake",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/jscake",
-        "branch": "develop"
-      }
-    },
-    "city-maps-mobile": {
-      "github": {
-        "origin": "https://github.com/kkamara/city-maps-mobile",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/city-maps-mobile",
-        "branch": "develop"
-      }
-    },
-    "laravel-makefile": {
-      "github": {
-        "origin": "https://github.com/kkamara/laravel-makefile",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/laravel-makefile",
-        "branch": "main"
-      }
-    },
-    "symfony": {
-      "github": {
-        "origin": "https://github.com/kkamara/symfony",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/symfony",
-        "branch": "main"
-      }
-    },
-    "go-ecommerce": {
-      "github": {
-        "origin": "https://github.com/kkamara/go-ecommerce",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/go-ecommerce",
-        "branch": "develop"
-      }
-    },
-    "telebrowser": {
-      "github": {
-        "origin": "https://github.com/kkamara/telebrowser",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/telebrowser",
-        "branch": "main"
-      }
-    },
-    "go-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/go-boilerplate",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/go-boilerplate",
-        "branch": "develop"
-      }
-    },
-    "octobercms": {
-      "github": {
-        "origin": "https://github.com/kkamara/octobercms",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/octobercms",
-        "branch": "main"
-      }
-    },
-    "adonis-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/adonis-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/adonis-boilerplate",
-        "branch": "main"
-      }
-    },
-    "car-park-distance-matrix": {
-      "github": {
-        "origin": "https://github.com/kkamara/car-park-distance-matrix",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/car-park-distance-matrix",
-        "branch": "main"
-      }
-    },
-    "tour-of-heroes": {
-      "github": {
-        "origin": "https://github.com/kkamara/tour-of-heroes",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/tour-of-heroes",
-        "branch": "main"
-      }
-    },
-    "oldcrm": {
-      "github": {
-        "origin": "https://github.com/kkamara/oldcrm",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/oldcrm",
-        "branch": "main"
-      }
-    },
-    "users-api": {
-      "github": {
-        "origin": "https://github.com/kkamara/users-api",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/users-api",
+        "origin": "git@bitbucket.org:kkamara2/desktop-react-boilerplate",
         "branch": "main"
       }
     }
