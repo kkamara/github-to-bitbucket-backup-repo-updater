@@ -60,13 +60,13 @@
         "branch": "main"
       }
     },
-    "web-react-boilerplate": {
+    "python-react-boilerplate": {
       "github": {
-        "origin": "https://github.com/kkamara/web-react-boilerplate",
+        "origin": "https://github.com/kkamara/python-react-boilerplate",
         "branch": "develop"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/web-react-boilerplate",
+        "origin": "git@bitbucket.org:kkamara2/python-react-boilerplate",
         "branch": "develop"
       }
     },
