@@ -110,6 +110,16 @@
         "branch": "main"
       }
     },
+    "python-selenium": {
+      "github": {
+        "origin": "https://github.com/kkamara/python-selenium",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/python-selenium",
+        "branch": "main"
+      }
+    },
     "github-to-bitbucket-backup-repo-updater": {
       "github": {
         "origin": "https://github.com/kkamara/github-to-bitbucket-backup-repo-updater",
