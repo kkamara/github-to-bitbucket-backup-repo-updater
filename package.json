@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "description": "",
+  "type": "module",
   "scripts": {
     "test": "mocha app.test.js",
     "start": "node app.js",

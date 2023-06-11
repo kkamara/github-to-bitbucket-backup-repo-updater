@@ -1,16 +1,22 @@
 #!/usr/bin/env node
-const { chdir, } = require('node:process')
-const { join, } = require('node:path')
-const { mkdir, rm, readdir, } = require('node:fs/promises')
-const { existsSync, } = require('node:fs')
-const { spawn, exec, } = require('node:child_process')
-const { log, error, } = require('node:console')
-const cli = require('cli'), options = cli.parse({
+import { chdir, } from 'node:process'
+import { fileURLToPath } from 'url';
+import { join, dirname, } from 'node:path'
+import { mkdir, rm, readdir, } from 'node:fs/promises'
+import { existsSync, } from 'node:fs'
+import { spawn, exec, } from 'node:child_process'
+import { log, error, } from 'node:console'
+import clone from 'git-clone/promise.js'
+import config from './config.json' assert { type: "json" }
+import cli from 'cli' 
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+const options = cli.parse({
   time: [ 't', 'An access time', 'time', false],                 // -t, --time TIME   An access time
   work: [ 'w', 'What kind of work to do', 'string', 'sleep' ]  //     --work STRING What kind of work to do
 })
-const clone = require('git-clone/promise')
-const config = require('./config.json')
 
 const run = async () => {
   try {
