@@ -1,5 +1,15 @@
 {
   "repos": {
+    "github-to-bitbucket-backup-repo-updater": {
+      "github": {
+        "origin": "https://github.com/kkamara/github-to-bitbucket-backup-repo-updater",
+        "branch": "develop"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/github-to-bitbucket-backup-repo-updater",
+        "branch": "develop"
+      }
+    },
     "kelvinkamara.com": {
       "github": {
         "origin": "https://github.com/kkamara/kelvinkamara.com",
@@ -7,16 +17,6 @@
       },
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/kelvinkamara.com",
-        "branch": "main"
-      }
-    },
-    "premium-artist-cms-template": {
-      "github": {
-        "origin": "https://github.com/kkamara/premium-artist-cms-template",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/premium-artist-cms-template",
         "branch": "main"
       }
     },
@@ -50,6 +50,46 @@
         "branch": "main"
       }
     },
+    "node-react-boilerplate": {
+      "github": {
+        "origin": "https://github.com/kkamara/node-react-boilerplate",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/node-react-boilerplate",
+        "branch": "main"
+      }
+    },
+    "react-boilerplate": {
+      "github": {
+        "origin": "https://github.com/kkamara/react-boilerplate",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/react-boilerplate",
+        "branch": "main"
+      }
+    },
+    "mrvl-desktop": {
+      "github": {
+        "origin": "https://github.com/kkamara/mrvl-desktop",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/mrvl-desktop",
+        "branch": "main"
+      }
+    },
+    "desktop-react-boilerplate": {
+      "github": {
+        "origin": "https://github.com/kkamara/desktop-react-boilerplate",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/desktop-react-boilerplate",
+        "branch": "main"
+      }
+    },
     "playground": {
       "github": {
         "origin": "https://github.com/kkamara/playground",
@@ -58,16 +98,6 @@
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/playground",
         "branch": "main"
-      }
-    },
-    "python-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-react-boilerplate",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-react-boilerplate",
-        "branch": "develop"
       }
     },
     "debian-linux-desktop-setup": {
@@ -88,56 +118,6 @@
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/cpp",
         "branch": "develop"
-      }
-    },
-    "react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/react-boilerplate",
-        "branch": "main"
-      }
-    },
-    "desktop-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/desktop-react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/desktop-react-boilerplate",
-        "branch": "main"
-      }
-    },
-    "python-selenium": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-selenium",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-selenium",
-        "branch": "main"
-      }
-    },
-    "github-to-bitbucket-backup-repo-updater": {
-      "github": {
-        "origin": "https://github.com/kkamara/github-to-bitbucket-backup-repo-updater",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/github-to-bitbucket-backup-repo-updater",
-        "branch": "develop"
-      }
-    },
-    "node-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/node-react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/node-react-boilerplate",
-        "branch": "main"
       }
     }
   }
