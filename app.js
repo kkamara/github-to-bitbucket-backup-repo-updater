@@ -1,17 +1,13 @@
 #!/usr/bin/env node
-import { chdir, } from 'node:process'
-import { fileURLToPath } from 'url';
-import { join, dirname, } from 'node:path'
-import { mkdir, rm, readdir, } from 'node:fs/promises'
-import { existsSync, } from 'node:fs'
-import { spawn, exec, } from 'node:child_process'
-import { log, error, } from 'node:console'
-import clone from 'git-clone/promise.js'
-import config from './config.json' assert { type: "json" }
-import cli from 'cli' 
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
+const { chdir, } = require('process')
+const { join, } = require('path')
+const { mkdir, rm, readdir, } = require('fs/promises')
+const { existsSync, } = require('fs')
+const { spawn, exec, } = require('child_process')
+const { log, error, } = require('console')
+const clone = require('git-clone/promise.js')
+const config = require('./config.json')
+const cli = require('cli' )
 
 const options = cli.parse({
   time: [ 't', 'An access time', 'time', false],                 // -t, --time TIME   An access time
