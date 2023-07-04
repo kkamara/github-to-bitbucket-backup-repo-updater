@@ -10,36 +10,6 @@
         "branch": "develop"
       }
     },
-    "kelvinkamara.com": {
-      "github": {
-        "origin": "https://github.com/kkamara/kelvinkamara.com",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/kelvinkamara.com",
-        "branch": "main"
-      }
-    },
-    "kelvinkamara": {
-      "github": {
-        "origin": "https://github.com/kkamara/kelvinkamara",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/kelvinkamara",
-        "branch": "main"
-      }
-    },
-    "useful": {
-      "github": {
-        "origin": "https://github.com/kkamara/useful",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/useful",
-        "branch": "main"
-      }
-    },
     "kkamara": {
       "github": {
         "origin": "https://github.com/kkamara/kkamara",
@@ -50,13 +20,13 @@
         "branch": "main"
       }
     },
-    "wordpress": {
+    "useful": {
       "github": {
-        "origin": "https://github.com/kkamara/wordpress",
+        "origin": "https://github.com/kkamara/useful",
         "branch": "main"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/wordpress",
+        "origin": "git@bitbucket.org:kkamara2/useful",
         "branch": "main"
       }
     },
@@ -80,26 +50,6 @@
         "branch": "main"
       }
     },
-    "mrvl-desktop": {
-      "github": {
-        "origin": "https://github.com/kkamara/mrvl-desktop",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/mrvl-desktop",
-        "branch": "main"
-      }
-    },
-    "desktop-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/desktop-react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/desktop-react-boilerplate",
-        "branch": "main"
-      }
-    },
     "playground": {
       "github": {
         "origin": "https://github.com/kkamara/playground",
@@ -110,13 +60,13 @@
         "branch": "main"
       }
     },
-    "debian-linux-desktop-setup": {
+    "wordpress": {
       "github": {
-        "origin": "https://github.com/kkamara/debian-linux-desktop-setup",
+        "origin": "https://github.com/kkamara/wordpress",
         "branch": "main"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/debian-linux-desktop-setup",
+        "origin": "git@bitbucket.org:kkamara2/wordpress",
         "branch": "main"
       }
     },
@@ -128,6 +78,26 @@
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/cpp",
         "branch": "develop"
+      }
+    },
+    "kelvinkamara.com": {
+      "github": {
+        "origin": "https://github.com/kkamara/kelvinkamara.com",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/kelvinkamara.com",
+        "branch": "main"
+      }
+    },
+    "kelvinkamara": {
+      "github": {
+        "origin": "https://github.com/kkamara/kelvinkamara",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/kelvinkamara",
+        "branch": "main"
       }
     }
   }
