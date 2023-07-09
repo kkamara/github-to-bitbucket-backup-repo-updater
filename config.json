@@ -89,16 +89,6 @@
         "origin": "git@bitbucket.org:kkamara2/kelvinkamara.com",
         "branch": "main"
       }
-    },
-    "kelvinkamara": {
-      "github": {
-        "origin": "https://github.com/kkamara/kelvinkamara",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/kelvinkamara",
-        "branch": "main"
-      }
     }
   }
 }
