@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { version, } = require('./package.json')
 const { chdir, } = require('process')
 const { join, } = require('path')
 const { mkdir, rm, readdir, } = require('fs/promises')
@@ -9,15 +10,18 @@ const clone = require('git-clone/promise.js')
 const config = require('./config.json')
 const cli = require('cli' )
 
-const options = cli.parse({
+const options = {
   time: [ 't', 'An access time', 'time', false],                 // -t, --time TIME   An access time
-  work: [ 'w', 'What kind of work to do', 'string', 'sleep' ]  //     --work STRING What kind of work to do
-})
+  work: [ 'w', 'What kind of work to do', 'string', 'sleep' ],  //     --work STRING What kind of work to do
+}
+
+const appName = 'Github to Bitbucket Backup Repo Updater'
 
 const run = async () => {
   try {
-    log(cli.parse(), options)
-    log(cli.parse().time, options.work)
+    cli.enable('version')
+    cli.setApp(appName, version)
+    const cliRes = cli.parse(options)
     /*
       "repos": {
         "kelvinkamara.com": {
