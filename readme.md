@@ -12,7 +12,7 @@ ghbbupdater
 
 ## Requirements
 
-- https://nodejs.org/en/blog/announcements/v19-release-announce/
+- [Node.js](https://nodejs.org)
 
 - [Git](https://git-scm.com/)
 
@@ -51,9 +51,8 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
   npm run start
   npm run start -- --help
   ghbbupdater --help
+  ghbbupdater --version
   ghbbupdater
-  ghbbupdater --time 1 -w test
-  npm run start -- --time 1 -w test
 ```
 
 ## Tests
