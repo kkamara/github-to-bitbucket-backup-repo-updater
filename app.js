@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict'
 const { version, } = require('./package.json')
 const { chdir, } = require('process')
 const { join, } = require('path')
