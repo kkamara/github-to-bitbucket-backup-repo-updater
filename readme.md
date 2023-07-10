@@ -14,7 +14,7 @@ ghbbupdater
 
 - [Node.js](https://nodejs.org)
 
-- [Git](https://git-scm.com/)
+- [Git](https://git-scm.com/).
 
 ## Installation
 
