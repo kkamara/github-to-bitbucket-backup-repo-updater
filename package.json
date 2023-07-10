@@ -4,9 +4,12 @@
   "main": "app.js",
   "description": "",
   "scripts": {
-    "test": "mocha app.test.js",
-    "start": "node app.js",
+    "test": "yarn mocha app.test.js",
+    "start": "yarn node app.js",
     "build": "npm link"
+  },
+  "bin": {
+    "ghbbupdater": "./app.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +22,6 @@
     "cli": "^1.0.1",
     "git-add-remote": "^1.0.0",
     "git-clone": "^0.2.0"
-  },
-  "bin": {
-    "ghbbupdater": "./app.js"
   },
   "devDependencies": {
     "mocha": "^10.1.0"
