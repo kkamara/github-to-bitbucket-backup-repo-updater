@@ -1,6 +1,15 @@
 # github-to-bitbucket-backup-repo-updater
 :computer: Compatible with Windows, MacOS & Linux.
 
+## Quickstart
+
+```bash
+# Set a config.json in your current working directory at your terminal.
+npm i github-to-bitbucket-backup-repo-updater
+ghbbupdater --help
+ghbbupdater
+```
+
 ## Requirements
 
 - https://nodejs.org/en/blog/announcements/v19-release-announce/
