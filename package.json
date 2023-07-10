@@ -17,7 +17,13 @@
   },
   "author": "https://github.com/kkamara",
   "license": "BSD-3",
-  "keywords": [],
+  "keywords": [
+    "github", 
+    "bitbucket",
+    "backup",
+    "repo",
+    "updater"
+  ],
   "dependencies": {
     "cli": "^1.0.1",
     "git-add-remote": "^1.0.0",
