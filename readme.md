@@ -69,25 +69,6 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 
 [See node react boilerplate.](https://github.com/kkamara/node-react-boilerplate)
 
-### Planning notes
-
-```bash
-  mkdir bitbucket
-  cd bitbucket
-  git clone https://github.com/kkamara/php-scraper
-  cd php-scraper
-  git remote set-url origin git@bitbucket.org:kkamara2/php-scraper
-  git push
-```
-
-```json
-{
-  "origins": {
-    "https://github.com/kkamara/kelvinkamara.com": "git@bitbucket.org:kkamara2/kelvinkamara.com"
-  }
-}
-
-```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
