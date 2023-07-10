@@ -1,6 +1,6 @@
 {
   "name": "github-to-bitbucket-backup-repo-updater",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "app.js",
   "description": "",
   "scripts": {
