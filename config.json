@@ -153,11 +153,11 @@
     "artist": {
       "github": {
         "origin": "https://github.com/kkamara/artist",
-        "branch": "main"
+        "branch": "master"
       },
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/artist",
-        "branch": "main"
+        "branch": "master"
       }
     },
     "python-selenium": {
