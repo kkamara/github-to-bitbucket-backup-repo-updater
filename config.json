@@ -89,6 +89,96 @@
         "origin": "git@bitbucket.org:kkamara2/kelvinkamara.com",
         "branch": "main"
       }
+    },
+    "food-nutrition-facts-search-web-app ": {
+      "github": {
+        "origin": "https://github.com/kkamara/food-nutrition-facts-search-web-app ",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/food-nutrition-facts-search-web-app ",
+        "branch": "main"
+      }
+    },
+    "php-react-boilerplate": {
+      "github": {
+        "origin": "https://github.com/kkamara/php-react-boilerplate",
+        "branch": "develop"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/php-react-boilerplate",
+        "branch": "develop"
+      }
+    },
+    "python-web-app": {
+      "github": {
+        "origin": "https://github.com/kkamara/python-web-app",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/python-web-app",
+        "branch": "main"
+      }
+    },
+    "python-react-boilerplate": {
+      "github": {
+        "origin": "https://github.com/kkamara/python-react-boilerplate",
+        "branch": "develop"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/python-react-boilerplate",
+        "branch": "develop"
+      }
+    },
+    "python-desktop-mobile": {
+      "github": {
+        "origin": "https://github.com/kkamara/python-desktop-mobile",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/python-desktop-mobile",
+        "branch": "main"
+      }
+    },
+    "premium-artist-cms-template": {
+      "github": {
+        "origin": "https://github.com/kkamara/premium-artist-cms-template",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/premium-artist-cms-template",
+        "branch": "main"
+      }
+    },
+    "artist": {
+      "github": {
+        "origin": "https://github.com/kkamara/artist",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/artist",
+        "branch": "main"
+      }
+    },
+    "python-selenium": {
+      "github": {
+        "origin": "https://github.com/kkamara/python-selenium",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/python-selenium",
+        "branch": "main"
+      }
+    },
+    "kelvinkamara": {
+      "github": {
+        "origin": "https://github.com/kkamara/kelvinkamara",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/kelvinkamara",
+        "branch": "main"
+      }
     }
   }
 }
