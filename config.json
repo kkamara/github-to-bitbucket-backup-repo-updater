@@ -90,13 +90,13 @@
         "branch": "main"
       }
     },
-    "food-nutrition-facts-search-web-app ": {
+    "food-nutrition-facts-search-web-app": {
       "github": {
-        "origin": "https://github.com/kkamara/food-nutrition-facts-search-web-app ",
+        "origin": "https://github.com/kkamara/food-nutrition-facts-search-web-app",
         "branch": "main"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/food-nutrition-facts-search-web-app ",
+        "origin": "git@bitbucket.org:kkamara2/food-nutrition-facts-search-web-app",
         "branch": "main"
       }
     },
