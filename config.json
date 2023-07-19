@@ -169,6 +169,26 @@
         "origin": "git@bitbucket.org:kkamara2/python-selenium",
         "branch": "main"
       }
+    },
+    "php-docker-skeleton": {
+      "github": {
+        "origin": "https://github.com/kkamara/php-docker-skeleton",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/php-docker-skeleton",
+        "branch": "main"
+      }
+    },
+    "python-docker-skeleton": {
+      "github": {
+        "origin": "https://github.com/kkamara/python-docker-skeleton",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/python-docker-skeleton",
+        "branch": "main"
+      }
     }
   }
 }
