@@ -40,46 +40,6 @@
         "branch": "main"
       }
     },
-    "react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/react-boilerplate",
-        "branch": "main"
-      }
-    },
-    "playground": {
-      "github": {
-        "origin": "https://github.com/kkamara/playground",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/playground",
-        "branch": "main"
-      }
-    },
-    "wordpress": {
-      "github": {
-        "origin": "https://github.com/kkamara/wordpress",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/wordpress",
-        "branch": "main"
-      }
-    },
-    "cpp": {
-      "github": {
-        "origin": "https://github.com/kkamara/cpp",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/cpp",
-        "branch": "develop"
-      }
-    },
     "kelvinkamara.com": {
       "github": {
         "origin": "https://github.com/kkamara/kelvinkamara.com",
@@ -87,56 +47,6 @@
       },
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/kelvinkamara.com",
-        "branch": "main"
-      }
-    },
-    "food-nutrition-facts-search-web-app": {
-      "github": {
-        "origin": "https://github.com/kkamara/food-nutrition-facts-search-web-app",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/food-nutrition-facts-search-web-app",
-        "branch": "main"
-      }
-    },
-    "php-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/php-react-boilerplate",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/php-react-boilerplate",
-        "branch": "develop"
-      }
-    },
-    "python-web-app": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-web-app",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-web-app",
-        "branch": "main"
-      }
-    },
-    "python-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-react-boilerplate",
-        "branch": "develop"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-react-boilerplate",
-        "branch": "develop"
-      }
-    },
-    "python-desktop-mobile": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-desktop-mobile",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-desktop-mobile",
         "branch": "main"
       }
     },
@@ -160,33 +70,23 @@
         "branch": "master"
       }
     },
-    "python-selenium": {
+    "nodejs-crm": {
       "github": {
-        "origin": "https://github.com/kkamara/python-selenium",
+        "origin": "https://github.com/kkamara/nodejs-crm",
         "branch": "main"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-selenium",
+        "origin": "git@bitbucket.org:kkamara2/nodejs-crm",
         "branch": "main"
       }
     },
-    "php-docker-skeleton": {
+    "nodejs-crm-desktop": {
       "github": {
-        "origin": "https://github.com/kkamara/php-docker-skeleton",
+        "origin": "https://github.com/kkamara/nodejs-crm-desktop",
         "branch": "main"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/php-docker-skeleton",
-        "branch": "main"
-      }
-    },
-    "python-docker-skeleton": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-docker-skeleton",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-docker-skeleton",
+        "origin": "git@bitbucket.org:kkamara2/nodejs-crm-desktop",
         "branch": "main"
       }
     }
