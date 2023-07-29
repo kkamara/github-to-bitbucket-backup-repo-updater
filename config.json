@@ -89,6 +89,16 @@
         "origin": "git@bitbucket.org:kkamara2/nodejs-crm-desktop",
         "branch": "main"
       }
+    },
+    "playground": {
+      "github": {
+        "origin": "https://github.com/kkamara/playground",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/playground",
+        "branch": "main"
+      }
     }
   }
 }
