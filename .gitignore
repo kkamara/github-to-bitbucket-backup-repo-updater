@@ -3,3 +3,6 @@
 bitbucket/
 .DS_Store
 tmp
+yarn.lock
+yarn-error.log
+
