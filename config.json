@@ -30,16 +30,6 @@
         "branch": "main"
       }
     },
-    "node-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/node-react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/node-react-boilerplate",
-        "branch": "main"
-      }
-    },
     "kelvinkamara.com": {
       "github": {
         "origin": "https://github.com/kkamara/kelvinkamara.com",
@@ -70,13 +60,23 @@
         "branch": "master"
       }
     },
-    "nodejs-crm": {
+    "movies": {
       "github": {
-        "origin": "https://github.com/kkamara/nodejs-crm",
+        "origin": "https://github.com/kkamara/movies",
         "branch": "main"
       },
       "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/nodejs-crm",
+        "origin": "git@bitbucket.org:kkamara2/movies",
+        "branch": "main"
+      }
+    },
+    "php-docker-skeleton": {
+      "github": {
+        "origin": "https://github.com/kkamara/php-docker-skeleton",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/php-docker-skeleton",
         "branch": "main"
       }
     },
