@@ -60,16 +60,6 @@
         "branch": "master"
       }
     },
-    "movies": {
-      "github": {
-        "origin": "https://github.com/kkamara/movies",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/movies",
-        "branch": "main"
-      }
-    },
     "php-docker-skeleton": {
       "github": {
         "origin": "https://github.com/kkamara/php-docker-skeleton",
