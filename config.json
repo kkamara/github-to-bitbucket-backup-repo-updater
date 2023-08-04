@@ -1,5 +1,15 @@
 {
   "repos": {
+    "users-api-laravel-10-php": {
+      "github": {
+        "origin": "https://github.com/kkamara/users-api-laravel-10-php",
+        "branch": "main"
+      },
+      "bitbucket": {
+        "origin": "git@bitbucket.org:kkamara2/users-api-laravel-10-php",
+        "branch": "main"
+      }
+    },
     "github-to-bitbucket-backup-repo-updater": {
       "github": {
         "origin": "https://github.com/kkamara/github-to-bitbucket-backup-repo-updater",
