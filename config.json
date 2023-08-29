@@ -60,46 +60,6 @@
         "branch": "master"
       }
     },
-    "nodejs-react-boilerplate": {
-      "github": {
-        "origin": "https://github.com/kkamara/nodejs-react-boilerplate",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/nodejs-react-boilerplate",
-        "branch": "main"
-      }
-    },
-    "nodejs-crm": {
-      "github": {
-        "origin": "https://github.com/kkamara/nodejs-crm",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/nodejs-crm",
-        "branch": "main"
-      }
-    },
-    "nodejs-crm-desktop": {
-      "github": {
-        "origin": "https://github.com/kkamara/nodejs-crm-desktop",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/nodejs-crm-desktop",
-        "branch": "main"
-      }
-    },
-    "python-docker-skeleton": {
-      "github": {
-        "origin": "https://github.com/kkamara/python-docker-skeleton",
-        "branch": "main"
-      },
-      "bitbucket": {
-        "origin": "git@bitbucket.org:kkamara2/python-docker-skeleton",
-        "branch": "main"
-      }
-    },
     "playground": {
       "github": {
         "origin": "https://github.com/kkamara/playground",
