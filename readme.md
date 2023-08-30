@@ -64,6 +64,8 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 
 ## Misc
 
+[new Github to bitbucket backup repo updater.](https://github.com/kkamara/ghbbupdater)
+
 [See react boilerplate.](https://github.com/kkamara/react-boilerplate)
 
 [See php scraper.](https://github.com/kkamara/php-scraper)
