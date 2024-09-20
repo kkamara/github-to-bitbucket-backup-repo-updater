@@ -64,13 +64,15 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 
 ## Misc
 
-[new Github to bitbucket backup repo updater.](https://github.com/kkamara/ghbbupdater)
+[See Github to Bitbucket Backup Repo Updater](https://github.com/kkamara/ghbbupdater) made with PHP.
 
-[See react boilerplate.](https://github.com/kkamara/react-boilerplate)
+[See PHP ReactJS Boilerplate](https://github.com/kkamara/php-reactjs-boilerplate).
 
-[See php scraper.](https://github.com/kkamara/php-scraper)
+[See ReactJS Boilerplate](https://github.com/kkamara/reactjs-boilerplate).
 
-[See node react boilerplate.](https://github.com/kkamara/node-react-boilerplate)
+[See PHP Scraper](https://github.com/kkamara/php-scraper).
+
+[See NodeJS ReactJS Boilerplate](https://github.com/kkamara/nodejs-reactjs-boilerplate).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
