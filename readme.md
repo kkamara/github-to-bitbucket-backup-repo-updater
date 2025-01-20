@@ -2,7 +2,7 @@
 
 :computer: Compatible with Windows, MacOS & Linux.
 
-## Quickstart
+## Quickstart for MacOs & Linux Machines
 
 ```bash
 # Set a config.json in your current working directory at your terminal.
@@ -27,11 +27,11 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
     "kelvinkamara.com": {
       "github": {
         "origin": "https://github.com/kkamara/kelvinkamara.com",
-        "branch": "develop"
+        "branch": "main"
       },
       "bitbucket": {
         "origin": "git@bitbucket.org:kkamara2/kelvinkamara.com",
-        "branch": "develop"
+        "branch": "main"
       }
     }
   }
@@ -40,10 +40,16 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 
 ```bash
   npm install
+```
+
+#### Using a MacOs or Linux Machine?
+
+```bash
   chmod +x app.js
   npm cache config set prefix /usr/local # Ignore for Node.js 14.
   npm run build # execute ghbbupdater command in path
   # sudo npm run build for Node.js 14.
+  ghbbupdater --help
 ```
 
 ## Usage
@@ -51,9 +57,6 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 ```bash
   npm run start
   npm run start -- --help
-  ghbbupdater --help
-  ghbbupdater --version
-  ghbbupdater
 ```
 
 ## Tests
@@ -64,7 +67,7 @@ Update `config.json` with your github and bitbucket remote urls for your repos.
 
 ## Misc
 
-[See Github to Bitbucket Backup Repo Updater](https://github.com/kkamara/ghbbupdater) made with PHP.
+[See Github to Bitbucket Backup Repo Updater](https://github.com/kkamara/php-github-to-bitbucket-backup-repo-updater) made with PHP.
 
 [See PHP ReactJS Boilerplate](https://github.com/kkamara/php-reactjs-boilerplate).
 
