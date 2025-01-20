@@ -1,4 +1,4 @@
-# github-to-bitbucket-backup-repo-updater
+# nodejs-github-to-bitbucket-backup-repo-updater
 
 :computer: Compatible with Windows, MacOS & Linux.
 
@@ -6,7 +6,7 @@
 
 ```bash
 # Set a config.json in your current working directory at your terminal.
-npm i github-to-bitbucket-backup-repo-updater
+npm i nodejs-github-to-bitbucket-backup-repo-updater
 ghbbupdater --help
 ghbbupdater
 ```
