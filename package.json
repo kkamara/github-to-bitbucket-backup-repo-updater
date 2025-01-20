@@ -4,8 +4,8 @@
   "main": "app.js",
   "description": "",
   "scripts": {
-    "test": "yarn mocha app.test.js",
-    "start": "yarn node app.js",
+    "test": "mocha app.test.js",
+    "start": "node app.js",
     "build": "npm link"
   },
   "bin": {
