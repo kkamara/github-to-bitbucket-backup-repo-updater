@@ -67,10 +67,11 @@ const run = async () => {
         exec(
           `git remote add bitbucket ${config.repos[repoName].bitbucket.origin}`, 
           (err, stdout, stderr) => {
-          if (err) return reject(err)
-          log(`Git replied: ${stdout}`)
-          resolve()
-        })
+            if (err) return reject(err)
+            log(`Git replied: ${stdout}`)
+            resolve()
+          },
+        )
       })
 
       log(`Pushing to bitbucket ${config.repos[repoName].bitbucket.branch}`)
@@ -79,10 +80,11 @@ const run = async () => {
         exec(
           `git push bitbucket ${config.repos[repoName].bitbucket.branch}`, 
           (err, stdout, stderr) => {
-          if (err) return reject(err)
-          log(`Git replied: ${stdout}`)
-          resolve()
-        })
+            if (err) return reject(err)
+            log(`Git replied: ${stdout}`)
+            resolve()
+          },
+        )
       })
 
       chdir(join(__dirname, '..', '..'))
